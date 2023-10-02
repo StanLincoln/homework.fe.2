@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px 135px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+}
+
+header {
+    width: 100%;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+header li {
+    padding-top: 15px;
+}
+
+img {
+    float: left;
+}
+
+nav,
+li {
+    display: inline-block;
+    height: 50px;
+    padding-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.active {
+    color: #9A93FF;
+}
+
+button {
+    border: none;
+    color: #ffffff;
+    border-radius: 999px;
+    background: #ADA7FF;
+}
+
+.header__button {
+    float: right;
+    padding: 16px 32px;
+}
