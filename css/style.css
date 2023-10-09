@@ -5,26 +5,26 @@
 }
 
 body {
-    padding: 50px 135px;
+    padding: 50px 135px 0 135px;
     font-family: 'Dosis', sans-serif;
     font-size: 18px;
     font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 header {
     width: 100%;
-    font-weight: 600;
-    line-height: normal;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
 }
 
 header li {
     padding-top: 15px;
 }
 
-img {
-    float: left;
-}
 
 nav,
 li {
@@ -47,9 +47,79 @@ button {
     color: #ffffff;
     border-radius: 999px;
     background: #ADA7FF;
+    padding: 16px 32px;
 }
 
-.header__button {
-    float: right;
-    padding: 16px 32px;
+main {
+    position: relative;
+    padding: 60px 0px 27px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text__content {
+    position: relative;
+    z-index: 1;
+    padding: 89px 487px 179px 0;
+}
+
+.text__content h2 {
+    font-size: 69px;
+    font-weight: 700;
+    padding-bottom: 23px;
+    width: 100%;
+    color: #302B3A;
+}
+.text__content p{
+    font-weight: 400;
+    padding-bottom: 60px;
+    max-width: 625px;
+    color: #404040;
+}
+span {
+    color: #ADA7FF;
+}
+
+.company__experience {
+    display: flex;
+    gap: 65px;
+}
+
+.company__experience h3{
+    font-size: 43px;
+    font-weight: 650;
+    color: #302B3A;
+}
+.company__experience p{
+    color: #686868;
+}
+.content__button{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 60px;
+}
+.span__button{
+    color: #ffffff;
+    padding-right: 10px;
+}
+
+.content__button button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image__content {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 60px;
+
+}
+
+
+.image__content img {
+    max-width: 566px;
+    max-height: 675.883px;
+    flex-shrink: 0;
 }
