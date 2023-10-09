@@ -25,7 +25,6 @@ header li {
     padding-top: 15px;
 }
 
-
 nav,
 li {
     display: inline-block;
@@ -70,12 +69,14 @@ main {
     width: 100%;
     color: #302B3A;
 }
-.text__content p{
+
+.text__content p {
     font-weight: 400;
     padding-bottom: 60px;
     max-width: 625px;
     color: #404040;
 }
+
 span {
     color: #ADA7FF;
 }
@@ -85,25 +86,28 @@ span {
     gap: 65px;
 }
 
-.company__experience h3{
+.company__experience h3 {
     font-size: 43px;
     font-weight: 650;
     color: #302B3A;
 }
-.company__experience p{
+
+.company__experience p {
     color: #686868;
 }
-.content__button{
+
+.content__button {
     display: flex;
     gap: 30px;
     padding-bottom: 60px;
 }
-.span__button{
+
+.span__button {
     color: #ffffff;
     padding-right: 10px;
 }
 
-.content__button button{
+.content__button button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,7 +120,6 @@ span {
     padding-top: 60px;
 
 }
-
 
 .image__content img {
     max-width: 566px;
