@@ -13,52 +13,50 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header__container">
       <img src="img/Logo.svg" alt="logo pet adoption" />
       <nav>
         <ul>
-          <li><a class="active" href="#">Home</a></li>
-          <li><a href="#">about us</a></li>
-          <li><a href="#">service</a></li>
-          <li><a href="#">gallery</a></li>
-          <li><a href="#">contact</a></li>
+          <li id="active">Home</li>
+          <li>about us</li>
+          <li>service</li>
+          <li>gallery</li>
+          <li>contact</li>
         </ul>
       </nav>
-      <button class="header__button">Get Started</button>
+      <button>Get Started</button>
     </header>
     <main>
-      <div class="text__content">
-        <h2>Looking for a <span>good</span> time?</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur. Enim viverra quis egestas usi
-          ullamcorper ut ante. Eu pretium lemiro ispum dolor amet viivata tarimo
-          ullamcorper ut
-        </p>
-        <div class="content__button">
-          <button>
-            <span class="span__button">adopt now</span>
-            <img src="./img/Dog print.svg" alt="dog paw" />
-          </button>
-          <img src="./img/Watch Video.svg" alt="video icon" />
+      <section class="section__wrapper">
+        <div>
+          <h2>Looking for a <span>good</span> time?</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Enim viverra quis egestas usi
+            ullamcorper ut ante. Eu pretium lemiro ispum dolor amet viivata tarimo
+            ullamcorper ut
+          </p>
+          <div class="button__container">
+            <button>adopt now<img src="./img/Dog print.svg" alt="dog paw" />
+            </button>
+            <button><img src="img/Play Button.svg" alt="play">Watch Video</button>
+          </div>
+          <div class="stat__container">
+            <div>
+              <h3>299K+</h3>
+              <p>Product</p>
+            </div>
+            <div>
+              <h3>99K+</h3>
+              <p>Seller</p>
+            </div>
+            <div>
+              <h3>2K+</h3>
+              <p>Positive Review</p>
+            </div>
+          </div>
         </div>
-        <div class="company__experience">
-          <div class="prodakt">
-            <h3>299K+</h3>
-            <p>Product</p>
-          </div>
-          <div class="seller">
-            <h3>99K+</h3>
-            <p>Seller</p>
-          </div>
-          <div class="review">
-            <h3>2K+</h3>
-            <p>Positive Review</p>
-          </div>
-        </div>
-      </div>
-      <div class="image__content">
-        <img src="./img/Group 7.svg" alt="cat and dog" />
-      </div>
+        <img class="img-inside-section" src="./img/Group 7.svg" alt="cat and dog" />
+      </section>
     </main>
   </body>
 </html>
